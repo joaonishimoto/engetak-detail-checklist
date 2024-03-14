@@ -2,6 +2,24 @@ export const database = [
   {
     id: 0,
     name: "esquadreta",
+    props: {
+      material: [
+        "SAE 1020",
+        "SAE 1020",
+      ],
+      tratT: [
+        "TRATAMENTO TERMICO",
+        "TRATAMENTO TERMICO",
+      ],
+      tratS: [
+        "TRATAMENTO SUPERFICIAL",
+        "TRATAMENTO SUPERFICIAL",
+      ],
+      notes: [
+        "NOTAS",
+        "NOTAS",
+      ],
+    },
     checklist: [
       {
         id: 0,
