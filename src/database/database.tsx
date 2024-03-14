@@ -6,7 +6,7 @@ export const database = [
       {
         id: 0,
         title: "máximas",
-        desc: "",
+        desc: "descrição para cotar as máximas",
         url: ""
       },
       {
