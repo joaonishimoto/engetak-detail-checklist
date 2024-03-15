@@ -9,7 +9,7 @@ export default function Page() {
 
   return (
     <main className="min-h-screen bg-teal-950">
-      <div className="fixed h-16 flex items-center justify-center border-b-2 w-full bg-teal-900 shadow-lg">
+      <div className="fixed z-50 h-16 flex items-center justify-center border-b-2 w-full bg-teal-900 shadow-lg">
         <h1 className="text-3xl text-white font-bold">Checklists</h1>
       </div>
       <div

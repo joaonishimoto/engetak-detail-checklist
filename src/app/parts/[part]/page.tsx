@@ -78,6 +78,9 @@ export default function Page(props: PartProps) {
               alt=""
               style={{ objectFit: "contain" }}
               className="w-full h-full"
+              onClick={() =>
+                slide < checklistPartLength - 1 ? setSlide(slide + 1) : null
+              }
             />
           )}
         </div>
