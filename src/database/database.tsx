@@ -1,7 +1,67 @@
 export const database = [
+  // geral
+  {
+    id: 0,
+    name: "geral",
+    nickname: "Geral",
+    props: {
+      material: [
+        "SAE 1020",
+      ],
+      tratT: [
+        "TRATAMENTO TERMICO",
+      ],
+      tratS: [
+        "TRATAMENTO SUPERFICIAL",
+      ],
+      notes: [
+        "NOTAS",
+      ],
+    },
+    checklist: [
+      {
+        id: 0,
+        title: "title",
+        desc: "description",
+        url: ""
+      }
+    ]
+  },
+
+  // tassello
+  {
+    id: 0,
+    name: "tassello",
+    nickname: "Tassello",
+    props: {
+      material: [
+        "SAE 1020",
+      ],
+      tratT: [
+        "TRATAMENTO TERMICO",
+      ],
+      tratS: [
+        "TRATAMENTO SUPERFICIAL",
+      ],
+      notes: [
+        "NOTAS",
+      ],
+    },
+    checklist: [
+      {
+        id: 0,
+        title: "title",
+        desc: "description",
+        url: ""
+      }
+    ]
+  },
+
+  // esquadreta
   {
     id: 0,
     name: "esquadreta",
+    nickname: "Esquadreta",
     props: {
       material: [
         "SAE 1020",
@@ -131,125 +191,294 @@ export const database = [
       }
     ]
   },
-  {
-    id: 1,
-    name: "tassello",
-    checklist: [
-      {
-        id: 0,
-        title: "Cotar furos",
-        desc: "como cotar furos",
-        url: "img/parts/teste.png"
-      },
-      {
-        id: 1,
-        title: "Cotar ângulos",
-        desc: "como cotar ângulos",
-        url: "img/parts/teste.png"
-      },
-      {
-        id: 2,
-        title: "Cotar máximas",
-        desc: "como cotar máximas",
-        url: "img/parts/teste.png"
-      }
-    ]
-  },
-  {
-    id: 2,
-    name: "porta-pino",
-    checklist: [
-      {
-        id: 0,
-        title: "Cotar furos",
-        desc: "como cotar furos",
-        url: "img/parts/teste.png"
-      },
-      {
-        id: 1,
-        title: "Cotar ângulos",
-        desc: "como cotar ângulos",
-        url: "img/parts/teste.png"
-      },
-      {
-        id: 2,
-        title: "Cotar máximas",
-        desc: "como cotar máximas",
-        url: "img/parts/teste.png"
-      }
-    ]
-  },
-  {
-    id: 3,
-    name: "pino",
-    checklist: [
-      {
-        id: 0,
-        title: "Cotar furos",
-        desc: "como cotar furos",
-        url: "img/parts/teste.png"
-      },
-      {
-        id: 1,
-        title: "Cotar ângulos",
-        desc: "como cotar ângulos",
-        url: "img/parts/teste.png"
-      },
-      {
-        id: 2,
-        title: "Cotar máximas",
-        desc: "como cotar máximas",
-        url: "img/parts/teste.png"
-      }
-    ]
-  },
-  {
-    id: 4,
-    name: "chapa",
-    checklist: [
-      {
-        id: 0,
-        title: "Cotar furos",
-        desc: "como cotar furos",
-        url: "img/parts/teste.png"
-      },
-      {
-        id: 1,
-        title: "Cotar ângulos",
-        desc: "como cotar ângulos",
-        url: "img/parts/teste.png"
-      },
-      {
-        id: 2,
-        title: "Cotar máximas",
-        desc: "como cotar máximas",
-        url: "img/parts/teste.png"
-      }
-    ]
-  },
-  {
-    id: 5,
-    name: "chapa-dobrada",
-    checklist: [
-      {
-        id: 0,
-        title: "Cotar furos",
-        desc: "como cotar furos",
-        url: "img/parts/teste.png"
-      },
-      {
-        id: 1,
-        title: "Cotar ângulos",
-        desc: "como cotar ângulos",
-        url: "img/parts/teste.png"
-      },
-      {
-        id: 2,
-        title: "Cotar máximas",
-        desc: "como cotar máximas",
-        url: "img/parts/teste.png"
-      }
-    ]
-  }
-]
 
+  // pino-produto
+  {
+    id: 0,
+    name: "pino-produto",
+    nickname: "Pino Produto",
+    props: {
+      material: [
+        "SAE 1020",
+      ],
+      tratT: [
+        "TRATAMENTO TERMICO",
+      ],
+      tratS: [
+        "TRATAMENTO SUPERFICIAL",
+      ],
+      notes: [
+        "NOTAS",
+      ],
+    },
+    checklist: [
+      {
+        id: 0,
+        title: "title",
+        desc: "description",
+        url: ""
+      }
+    ]
+  },
+
+  // porta-pino
+  {
+    id: 0,
+    name: "porta-pino",
+    nickname: "Porta Pino",
+    props: {
+      material: [
+        "SAE 1020",
+      ],
+      tratT: [
+        "TRATAMENTO TERMICO",
+      ],
+      tratS: [
+        "TRATAMENTO SUPERFICIAL",
+      ],
+      notes: [
+        "NOTAS",
+      ],
+    },
+    checklist: [
+      {
+        id: 0,
+        title: "title",
+        desc: "description",
+        url: ""
+      }
+    ]
+  },
+
+  // chapa-de-ajuste
+  {
+    id: 0,
+    name: "chapa-de-ajuste",
+    nickname: "Chapa de Ajuste",
+    props: {
+      material: [
+        "SAE 1020",
+      ],
+      tratT: [
+        "TRATAMENTO TERMICO",
+      ],
+      tratS: [
+        "TRATAMENTO SUPERFICIAL",
+      ],
+      notes: [
+        "NOTAS",
+      ],
+    },
+    checklist: [
+      {
+        id: 0,
+        title: "title",
+        desc: "description",
+        url: ""
+      }
+    ]
+  },
+
+  // bucha
+  {
+    id: 0,
+    name: "bucha",
+    nickname: "Bucha",
+    props: {
+      material: [
+        "SAE 1020",
+      ],
+      tratT: [
+        "TRATAMENTO TERMICO",
+      ],
+      tratS: [
+        "TRATAMENTO SUPERFICIAL",
+      ],
+      notes: [
+        "NOTAS",
+      ],
+    },
+    checklist: [
+      {
+        id: 0,
+        title: "title",
+        desc: "description",
+        url: ""
+      }
+    ]
+  },
+
+  // eixo
+  {
+    id: 0,
+    name: "eixo",
+    nickname: "Eixo",
+    props: {
+      material: [
+        "SAE 1020",
+      ],
+      tratT: [
+        "TRATAMENTO TERMICO",
+      ],
+      tratS: [
+        "TRATAMENTO SUPERFICIAL",
+      ],
+      notes: [
+        "NOTAS",
+      ],
+    },
+    checklist: [
+      {
+        id: 0,
+        title: "title",
+        desc: "description",
+        url: ""
+      }
+    ]
+  },
+
+  // batente
+  {
+    id: 0,
+    name: "batente",
+    nickname: "Batente",
+    props: {
+      material: [
+        "SAE 1020",
+      ],
+      tratT: [
+        "TRATAMENTO TERMICO",
+      ],
+      tratS: [
+        "TRATAMENTO SUPERFICIAL",
+      ],
+      notes: [
+        "NOTAS",
+      ],
+    },
+    checklist: [
+      {
+        id: 0,
+        title: "title",
+        desc: "description",
+        url: ""
+      }
+    ]
+  },
+
+  // torre
+  {
+    id: 0,
+    name: "torre",
+    nickname: "Torre",
+    props: {
+      material: [
+        "SAE 1020",
+      ],
+      tratT: [
+        "TRATAMENTO TERMICO",
+      ],
+      tratS: [
+        "TRATAMENTO SUPERFICIAL",
+      ],
+      notes: [
+        "NOTAS",
+      ],
+    },
+    checklist: [
+      {
+        id: 0,
+        title: "title",
+        desc: "description",
+        url: ""
+      }
+    ]
+  },
+
+  // mesa
+  {
+    id: 0,
+    name: "mesa",
+    nickname: "Mesa",
+    props: {
+      material: [
+        "SAE 1020",
+      ],
+      tratT: [
+        "TRATAMENTO TERMICO",
+      ],
+      tratS: [
+        "TRATAMENTO SUPERFICIAL",
+      ],
+      notes: [
+        "NOTAS",
+      ],
+    },
+    checklist: [
+      {
+        id: 0,
+        title: "title",
+        desc: "description",
+        url: ""
+      }
+    ]
+  },
+
+  // chaveta
+  {
+    id: 0,
+    name: "chaveta",
+    nickname: "Chaveta/Rasgo",
+    props: {
+      material: [
+        "SAE 1020",
+      ],
+      tratT: [
+        "TRATAMENTO TERMICO",
+      ],
+      tratS: [
+        "TRATAMENTO SUPERFICIAL",
+      ],
+      notes: [
+        "NOTAS",
+      ],
+    },
+    checklist: [
+      {
+        id: 0,
+        title: "title",
+        desc: "description",
+        url: ""
+      }
+    ]
+  },
+
+  // convite
+  {
+    id: 0,
+    name: "convite",
+    nickname: "Convite",
+    props: {
+      material: [
+        "SAE 1020",
+      ],
+      tratT: [
+        "TRATAMENTO TERMICO",
+      ],
+      tratS: [
+        "TRATAMENTO SUPERFICIAL",
+      ],
+      notes: [
+        "NOTAS",
+      ],
+    },
+    checklist: [
+      {
+        id: 0,
+        title: "title",
+        desc: "description",
+        url: ""
+      }
+    ]
+  },
+]

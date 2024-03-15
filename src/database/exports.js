@@ -1,3 +1,4 @@
+export { default as esquadreta } from '@/database/esquadreta/esquadreta.jpeg';
 export { default as esquadreta0 } from '@/database/esquadreta/0.PNG';
 export { default as esquadreta1 } from '@/database/esquadreta/1.PNG';
 export { default as esquadreta2 } from '@/database/esquadreta/2.PNG';

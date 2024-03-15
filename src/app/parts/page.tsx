@@ -1,25 +1,39 @@
-import { database } from "@/database/database";
 import Image from "next/image";
 import Link from "next/link";
+
+import { database } from "@/database/database";
+import * as image from "@/database/exports";
+
 
 export default function Page() {
 
   return (
-    <div className="min-h-screen grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 bg-teal-950 text-white ">
-      {database?.map((item, index) => (
-        <div key={index} className="flex justify-center mt-10">
-          <div className="size-40 flex items-center justify-center text-center ">
-            <Link  href={`/parts/${item.name}`} className="hover:-translate-y-2 transition-all duration-500">
-              <div className="size-32 bg-white rounded-full m-auto mb-3">
-                <Image src="" alt=""/>  
-              </div>
-              <h1 className="text-lg">
-                {item.name}
-              </h1>
-            </Link>
+    <main className="min-h-screen bg-teal-950">
+      <div className="fixed h-16 flex items-center justify-center border-b-2 w-full bg-teal-900 shadow-lg">
+        <h1 className="text-3xl text-white font-bold">Checklists</h1>
+      </div>
+      <div
+         className="h-[calc(100%-4rem)] text-white pt-20
+        grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6">
+        {database?.map((item, index) => (
+          <div key={index} className="flex justify-center p-7">
+            <div className="size-40 flex items-center justify-center text-center ">
+              <Link  href={`/parts/${item.name}`} className="hover:-translate-y-2 transition-all duration-500">
+                <div className="size-32 bg-white rounded-full m-auto mb-3">
+                  <Image 
+                    src={image[`${item.name}` as keyof typeof image]}
+                    alt=""
+                    className="rounded-full p-5"
+                  />  
+                </div>
+                <h1 className="text-lg">
+                  {item.nickname}
+                </h1>
+              </Link>
+            </div>
           </div>
-        </div>
-      ))}
-    </div>
+        ))}
+      </div>
+    </main>
   )
 }
