@@ -48,7 +48,11 @@ export default function Page(props: PartProps) {
         >
           <ArrowLeftCircle className="ml-2 group-hover:rotate-[360deg] group-hover:-translate-x-2 trasition-all duration-500 " />
         </Link>
+<<<<<<< HEAD
         <div className="text-3xl mr-10 border-teal-950/50 py-1">
+=======
+        <div className="text-3xl mr-10 border-b-2 border-teal-950/50 py-1">
+>>>>>>> 3a3a3446b76a643ff5a93a3c461f4193053ed393
           {slide > -1 ? curPart.checklist[slide].title : "Propriedades"}
         </div>
         <div></div>
@@ -102,7 +106,11 @@ export default function Page(props: PartProps) {
         </button>
       </div>
       <div className="flex items-center justify-center h-20">
+<<<<<<< HEAD
         <h2 className="text-2xl">
+=======
+        <h2 className="">
+>>>>>>> 3a3a3446b76a643ff5a93a3c461f4193053ed393
           {slide > -1
             ? curPart.checklist[slide].desc
             : "Essas são as propriedades mais utilizadas para a peça: " +
