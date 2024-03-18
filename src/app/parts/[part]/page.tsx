@@ -54,7 +54,7 @@ export default function Page(props: PartProps) {
         <div></div>
       </div>
 
-      <div className="flex items-center justify-center w-[calc(100% - 20%)] h-[80vh]">
+      <div className="flex items-center justify-center w-[calc(100%-20%)] h-[80vh]">
         <button
           disabled={slide === -1}
           onClick={() => (slide > -1 ? setSlide(slide - 1) : null)}
