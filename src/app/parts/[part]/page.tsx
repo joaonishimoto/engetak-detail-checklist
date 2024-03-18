@@ -1,7 +1,7 @@
 "use client";
 
 // component
-import { Props } from "@/components/detail/props";
+import { Props } from "@/components/Detail/props";
 
 // database imports
 import { database } from "@/database/database";
