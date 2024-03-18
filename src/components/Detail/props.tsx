@@ -9,7 +9,6 @@ export function Props({ urlPart }: PartParam) {
 
   return (
     <div className="w-full h-full rounded-2xl bg-teal-950 space-y-5 pt-3">
-<<<<<<< HEAD
             <div className="ml-3">
         <h1 className="text-white text-2xl mb-2 font-semibold">Nomes</h1>
         <ul className="text-zinc-300 text-sm space-y-1">
@@ -21,8 +20,6 @@ export function Props({ urlPart }: PartParam) {
         </ul>
       </div>
       <p className="w-full border-b flex"/>
-=======
->>>>>>> 3a3a3446b76a643ff5a93a3c461f4193053ed393
       <div className="ml-3">
         <h1 className="text-white text-2xl mb-2 font-semibold">Tratamento Superficial</h1>
         <ul className="text-zinc-300 text-sm space-y-1">
