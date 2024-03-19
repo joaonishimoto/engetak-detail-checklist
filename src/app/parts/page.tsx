@@ -3,14 +3,17 @@ import Link from "next/link";
 
 import { database } from "@/database/database";
 import * as image from "@/database/exports";
+import LogoutButton from "@/components/logout-button";
+
 
 
 export default function Page() {
 
+
   return (
     <main className="min-h-screen bg-teal-950">
-      <div className="fixed z-50 h-16 flex items-center justify-center border-b-2 w-full bg-teal-900 shadow-lg">
-        <h1 className="text-3xl text-white font-bold">Checklists</h1>
+      <div className="fixed z-50 h-16 flex items-center justify-end border-b-2 w-full bg-teal-900 shadow-lg">
+        <h2 className="mr-5"><LogoutButton /></h2>
       </div>
       <div
          className="h-[calc(100%-4rem)] text-white pt-20

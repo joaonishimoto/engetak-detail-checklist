@@ -1,7 +1,7 @@
 'use client'
 
+import { LogOut } from "lucide-react";
 import { signOut } from "next-auth/react";
-import { FaGithub } from "react-icons/fa";
 
 export default function LogoutButton() {
   function handleClick() {
@@ -11,9 +11,9 @@ export default function LogoutButton() {
   return (
     <button
       onClick={handleClick}
-      className="bg-black text-white flex items-center mx-auto mt-24 px-6 py-3 gap-3 rounded-lg"
+      className="h-5 w-5 text-white dark:text-zinc-400 transition-all curation-700 hover:scale-110"
     >
-    logout
-  </button>
+      <LogOut />
+    </button>
   )
 }
